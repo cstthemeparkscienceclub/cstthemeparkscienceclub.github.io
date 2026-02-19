@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-size: 64px;
+  color: orange;
+  font-family:"Hiragino Kaku Gothic ProN", 
+               "Yu Gothic", 
+               Meiryo, 
+               sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("images/amusement-park1.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
