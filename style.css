@@ -28,6 +28,17 @@ body {
                sans-serif;
 }
 
+.minititle {
+    text-align: center;
+    margin-top: 0;
+    font-size: 30px;
+    color: orange;
+    font-family:"Hiragino Kaku Gothic ProN", 
+               "Yu Gothic", 
+               Meiryo, 
+               sans-serif;
+}
+
 
 
 
@@ -62,6 +73,20 @@ body {
         flex-direction: row;
         justify-content: center;
     }
+}
+
+.square{
+    margin-top: 0px;
+    width:50%;
+    max-width:1000px;
+    background:rgba(255,0,0,1);
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+}
+
+.me{
+
 }
 
 
