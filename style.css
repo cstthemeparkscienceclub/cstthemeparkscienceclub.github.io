@@ -106,6 +106,7 @@ body {
 }
 
 .swiper{
+    /*overflow: visible;*/
     width:300px;
     height: 200px;
 }
