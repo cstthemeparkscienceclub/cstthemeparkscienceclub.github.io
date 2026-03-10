@@ -4,11 +4,32 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>サークル紹介</title>
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <div class="hero flex column align-center">
     <h1 class="title text-center">サークル紹介</h1>
+    <h3 class="text-center">幹部紹介</h3>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide flex column justify-start align-center">
+                <h1>代表</h1>
+                <div>ここに写真</div>
+                <p>ここに説明</p>
+            </div>
+            <div class="swiper-slide flex column justify-start align-center">
+                <h1>副代表</h1>
+                <div>ここに写真</div>
+                <p>ここに説明</p>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+</script>
+<script src="../js.js"></script>
 </body>
 </html>
