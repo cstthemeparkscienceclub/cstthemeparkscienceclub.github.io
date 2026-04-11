@@ -1,0 +1,125 @@
+body,h1,h2,h3,p {
+    margin: 0;
+}
+
+.box {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.flex{display:flex}
+.column{flex-direction: column;}
+.row{flex-direction: row;}
+.justify-center{justify-content: center;}
+.justify-start{justify-content: start;}
+.text-center{text-align: center;}
+.align-center{align-items: center;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+
+
+
+
+
+.title {
+    text-align: center;
+    margin-top: 0;
+    font-size: 64px;
+    color: orange;
+    font-family:"Hiragino Kaku Gothic ProN", 
+               "Yu Gothic", 
+               Meiryo, 
+               sans-serif;
+}
+
+.minititle {
+    text-align: center;
+    margin-top: 0;
+    font-size: 30px;
+    color: orange;
+    font-family:"Hiragino Kaku Gothic ProN", 
+               "Yu Gothic", 
+               Meiryo, 
+               sans-serif;
+}
+
+
+
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("images/amusement-park1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    margin-top: 40px;
+    width: 90%;
+    max-width: 1000px;
+    background: rgba(255,255,255,0.8);
+    padding: 30px;
+    gap: 20px;
+    border-radius: 12px;
+}
+
+@media (min-width:768px){
+    .overlay {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.square{
+    margin-top: 0px;
+    width:50%;
+    max-width:1000px;
+    background:rgba(255,0,0,1);
+    height:50px;
+}
+
+
+
+
+
+
+@keyframes slideup{
+    from{
+        opacity:0;
+        transform:translateY(50px)
+    }
+    to{
+        opacity:1;
+        transform:translateY(0)
+    }
+}
+
+.slideup{
+    animation:slideup 1s ease forwards;
+}
+
+.swiper{
+    /*overflow: visible;*/
+    width:100%;
+}
+
+.swiper-slide{
+
+    min-height: 300px;
+    background: #eee;
+    border-radius: 15px;
+}
+
+.swiper-pagination{
+    position: static;
+}
